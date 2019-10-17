@@ -1,5 +1,9 @@
 # Responsive-Portfolio
 
+About:
+
+Code to modify web pages to fit on various viewports.
+
 Link to website: https://mike-smith13067.github.io/Bootstrap-portfolio/
 
 Tools/Languages Used:
