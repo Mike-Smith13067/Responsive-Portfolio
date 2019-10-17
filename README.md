@@ -21,5 +21,13 @@ Tools/Languages Used:
 
     Screensshots of webpages:
 
+    https://github.com/Mike-Smith13067/Responsive-Portfolio/blob/master/pagescreenshots/360px.png
+
+    https://github.com/Mike-Smith13067/Responsive-Portfolio/blob/master/pagescreenshots/768px.png
+
+    https://github.com/Mike-Smith13067/Responsive-Portfolio/blob/master/pagescreenshots/Normal.png
+
     
+
+
 
