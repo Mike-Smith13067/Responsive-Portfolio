@@ -1,363 +1,150 @@
 
-.header {
-        background-color: #ffffff;
-        height: 50px;
+/* Navigation bar all three pages */
 
+
+.navbar-brand {
+    font-size: 24px;
+    color: black;
+    background-color: white;
+    font-style: bold;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    height: 50px;
+  
   }
 
-  #footer {
+  .navbar-footer {
     background-color: #666666;
     width: 100%;
     height: 50px;
     text-align: center;
     font-size: 15px;
-    border-top: 8px solid #4aaaa5;
-    position: relative;
-    top: 150px;
-  }
-
-  #contact-footer {
-    background-color: #666666;
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    font-size: 15px;
-    border-top: 8px solid #4aaaa5;
-    position: relative;
-    top: 0px;
-  }
-
-  #portfolio-footer {
-    background-color: #666666;
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    font-size: 15px;
-    border-top: 8px solid #4aaaa5;
-    position: relative;
-    top: -700px;
-  }
-
-  section {
-      position: relative;
-      width: 100%;
-      height: 100px;
-
-  }
-
-  nav {
-      position: relative;
-      width: 100%;
-      height: 50px;
-
-  }
-
-  body{
-      position: relative;
-      top: 0px;
-  }
-
-.myname {
-      background-color: teal;
-      color: white;
-      padding: 25px;
-      width: 200px;
-      font-family: Georgia;
-      text-align: center;
-      font-weight: bold;
-      font-size: 24px;
-      position: absolute;
-      left: 50%;
-      bottom: -50px;
-      margin-top: 200px;
-      margin-left: -485px;
-     
-     }
-
-     #about {
-         position: absolute;
-         left: 50%;
-         bottom: -10px;
-         margin-top: 200px;
-         margin-left: 250px;
-
-     }
-     #portfolio{
-        position: absolute;
-         left: 50%;
-         bottom: -10px;
-         margin-top: 200px;
-         margin-left: 325px;
-     }
-
-     #contact{
-        position: absolute;
-        left: 50%;
-        bottom: -10px;
-        margin-top: 200px;
-        margin-left: 400px;
-     }
-
-#aboutme {
-      position: relative;
-      font-family: Georgia;
-      font-weight: bold;
-      font-size: 24px;
-      height: 100px;
-      width: 960px;
-      font-size: 24px;
-      top: 25px;
-      left: 25px;
-      
-  }
-.container{
-    position: relative;
-      background-color: #dddddd;
-      height: 600px;
-      margin: 0 50px 0 50px;
-      top: 25px;
-     
-  }
-
-  .portfolio-container{
-    position: relative;
-      background-color: #dddddd;
-      height: 900px;
-      margin: 0 50px 0 50px;
-      top: 50px;
-     
-  }
-
-  .contact-container{
-    position: relative;
-      background-color: #dddddd;
-      height: 600px;
-      margin: 0 50px 0 50px;
-      top: 25px;
-     
-  }
-
-.mypic {
-      position: relative;
-      top: 35px;
-      float: left;
-      width: 150px;
-      height: 150px;
-      padding:0px 25px 50px 0px;
-      left: 25px;
+    
+    
     }
 
-#paragraph {
-    position: relative;
-      top: 35px;
-      width: 800px;
-      left: 25px;
-      
-}
+    a {
+      text-align: center;
+      color: #777777;
+    }
 
-#insert {
-      position: relative;
-      background-color: #ffffff;
-      Width: 960px;
-      height: 450px;
-      left: 50%;
-      margin-left: -480px;
-      top: 50px;
-      font-family: arial;
-      font-size: 15px;
+/* Header */
 
-}
-
-#portfolio-insert {
-    position: relative;
+.header {
     background-color: #ffffff;
-    Width: 960px;
-    height: 700px;
-    left: 50%;
-    margin-left: -480px;
-    top: -830px;
-   
+    height: 50px;
 
 }
+
+.row {
+  margin: 25px;
+}
+
+/* Container (large grey-blue background) Index page */
+
+  .container{
+    position: relative;
+    background-color: #dddddd;
+    height: 725px;
+    width: 960px;
+    left: 15%;
+    margin: 0px 50px 0 50px; 
+   
+  }
+  /* About me card (index page)*/
+
+  
+
+  .card-text1 {
+      position: absolute;
+      top: -150 px;
+      width: 500px;
+      font-size: 15px;
+      font-family: Arial;
+      color: #777777;
+      margin: 0 0 0 50px;
+
+
+  }
+
+  .card-text2 {
+    position: relative;
+    top: 50px;
+    width: 450px;
+    font-size: 15px;
+    font-family: Arial;
+    color: #777777;
+    padding: 20px 0 0 0;
+    margin: 50px;
+}
+
+.card-text3 {
+    position: relative;
+    top: 25px;
+    width: 450px;
+    font-size: 15px;
+    font-family: Arial;
+    color: #777777;
+    margin: 50px;
+}
+
+/* Portfilio cards */
+
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100px;
+
+}
+body{
+  position: relative;
+  top: 0px;
+}
+
+.card-portfolio {
+    position: absolute;
+    left: 250px;
+}
+
+/* Contact page*/
 
 #contact-insert {
-    position: relative;
-    background-color: #ffffff;
-    Width: 960px;
-    height: 500px;
-    left: 50%;
-    margin-left: -480px;
-    top: 30px;
-   
-
+position: relative;
+background-color: #ffffff;
+Width: 960px;
+height: 500px;
+left: 50%;
+margin-left: -480px;
+top: 30px;
 } 
 
 
-.pokerhands {
-    float: left;
-    width: 250px;
-    height:250px;
-    padding:0px 25px 50px 0px;
-    left: 25px;
-    Margin: 0 50px 50px 50px;
-}
-
-.book {
-    float: left;
-    width: 250px;
-    height: 250px;
-    padding:0px 25px 50px 0px;
-}
-
-.dallas {
-    float: left;
-    width: 250px;
-    height: 250px;
-    padding:0px 25px 50px 0px;
-}
-
-.alison {
-    float: left;
-    width: 250px;
-    height: 250px;
-    padding:0px 25px 50px 0px;
-}
-
-.jeep {
-    float: left;
-    width: 200px;
-    height: 200px;
-    padding:0px 25px 50px 0px;
-}
-
 textarea {
-    position: relative;
-    right: -25;
-    height: 200px;
-    width: 95%;
-    border: 2px solid #cccccc;
+position: relative;
+right: -25;
+height: 200px;
+width: 95%;
+border: 2px solid #cccccc;
 }
 
 input[type=email] {
-    position: relative;
-    width:95%;
-    right: -25px;
-    display: inline-block;
-    border: 2px solid #cccccc;
+position: relative;
+width:95%;
+right: -25px;
+display: inline-block;
+border: 2px solid #cccccc;
 }
 
 input[type=text] {
-    position: relative;
-    width:95%;
-    right: -25px;
-    display: inline-block;
-    border: 2px solid #cccccc;
+position: relative;
+width:95%;
+right: -25px;
+display: inline-block;
+border: 2px solid #cccccc;
 }
 
-#poker-banner {
-    background-color: teal;
-      color: white;
-      padding: 25px;
-      width: 200px;
-      font-family: Georgia;
-      text-align: center;
-      font-weight: bold;
-      font-size: 24px;
-      position: absolute;
-      top: 275px;
-      left: 50px;
 
-      
-}
-
-#book-banner {
-    background-color: teal;
-      color: white;
-      padding: 25px;
-      width: 200px;
-      font-family: Georgia;
-      text-align: center;
-      font-weight: bold;
-      font-size: 24px;
-      position: absolute;
-      top: 275px;
-      left: 375px;
-
-      
-}
-
-#dallas-banner {
-    background-color: teal;
-      color: white;
-      padding: 25px;
-      width: 200px;
-      font-family: Georgia;
-      text-align: center;
-      font-weight: bold;
-      font-size: 24px;
-      position: absolute;
-      top: 275px;
-      left: 650px;
-
-      
-}
-
-#alison-banner {
-    background-color: teal;
-      color: white;
-      padding: 25px;
-      width: 200px;
-      font-family: Georgia;
-      text-align: center;
-      font-weight: bold;
-      font-size: 24px;
-      position: absolute;
-      top: 575px;
-      left: 375px;
-
-      
-}
-
-#jeep-banner {
-    background-color: teal;
-      color: white;
-      padding: 25px;
-      width: 200px;
-      font-family: Georgia;
-      text-align: center;
-      font-weight: bold;
-      font-size: 24px;
-      position: absolute;
-      top: 575px;
-      left: 650px;
-      
-}
-
-/* media queries*/
-
-@media only screen and (max-width: 960px) {
-  body{
-  background-color: coral;
-  
-
-  }
-
-}
-
-@media screen and (max-width: 768px) {
-  body{
-    background-color: coral;
-    width: 50%;
-  
-    }
-
-}
-
-@media screen and (max-width: 640px) {
-  body{
-    background-color: coral;
-    width: 2%;
-  
-    }
-
-}
