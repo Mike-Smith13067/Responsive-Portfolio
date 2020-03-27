@@ -1,60 +1,89 @@
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8">
 <!-- This is the head section-->
+<title>Bootstrap-Portfolio</title>
+
 <head>
-        <link rel="stylesheet"type="text/css" href="assets/css/style.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content= "width-device-width, initial-scale=1">
-   
-                            <title>Contact SHeet</title>
-</head> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets\css\style.css">
+    <link rel="stylesheet" href="assets\css\reset.css">
+
+</head>
+<!-- My Name and Nav links-->
+<nav class="navbar">
+    <span class="navbar-brand mb-0 h1">Mike Smith</span>
 
 
-<nav>
- 
-<div class="myname"> Mike Smith</div>
-
-<div  id="about"><a href= "index.html" class= "button">About </a></div>
-<div  id="portfolio"><a href= "portfolio.html" class= "button">Portfolio </a></div>
-<div  id="contact"><a href= "contact.html" class= "button">Contact </a></div> 
-</nav>
-<body>
-        <div class="contact-container">
-
-        <div id="contact-insert">
-
-        <div id="aboutme"><p style="color: teal;"> Contact</p></div>
-
-            <p style="color:#777777;"></p>
-
-<!-- Forms-->
-          <form action="#" > 
-                <div>Name</div>
-                <input id= "Name" type="text" name="Your Name" placeholder="Your Name">
-
-                <br>
-
-                <div>Email</div>
-                <input id="email" type="email" name="Email Address" placeholder="Email Address">
-
-                <br>
-
-                <div>Message</div>
-                </form>
-                <div>
-                    <textarea name="Your Message" type ="text" id="message" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <button class="button" type= "submit">Submit</button>
-                </div>            
-        </div>
-    
+    <div class="navigation">
+        <a href="index.html"><button type="button" class="btn3 btn-primary">About Me</button></a>
+        <a href="portfolio.html"><button type="button" class="btn3 btn-primary">Portfolio</button></a>
+        <a href="contact.html"><button type="button" class="btn3 btn-primary">Contact</button></a>
+        <a href="resume.html"><button type="button" class="btn3 btn-primary">Resume</button></a>
     </div>
-       
+</nav>
+
+<body class="p-3 mb-2 bg-secondary text-white">
+    <!-- Row 1-->
+    <div class="row">
+            <div class="col-md-1"></div>
+        <!--Column 1-->
+    <div class="col-md-4">
+        <div class="card" style="height: 14rem;">
+            <img src="assets/images/githublogo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text"></p>
+                <a href="https://github.com/Mike-Smith13067" class="btn btn-primary">Goto Github</a>
+            </div>
+            </div>
+        </div>
+        <!-- Column 2-->
+        <div class="col-md-2"></div>
+        <!--Column 3-->
+        <div class="col-md-4">
+        <div class="card">
+            <img src="assets/images/linkedinlogo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text"></p>
+                <a href="https://www.linkedin.com/in/mike-smith-06479737/" class="btn btn-primary">Goto Linkdin</a>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <div class="card"style="height: 18rem;" >
+                    <img src="assets/images/avatar.jpg" class="card-img-top" alt="...">
+                    <div class="card-body>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-primary">Mobile: 719-651-7860</a>
+                        <a href="#" class="btn btn-primary">Email: hockeydad66@live.com</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                <div class="card" style="height: 18rem;">
+                    <img src="assets/images/facebooklogo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="https://www.facebook.com/" class="btn btn-primary">Goto Facebook</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            </div>
 </body>
 
-<footer>
-        <div id="contact-footer"> Copyright &copy ></div>
+
+<footer class="navbar-footer fixed-bottom">
+    <a href="#">Copyright ©</a>
 </footer>
+
+
 
 </html>
