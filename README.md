@@ -1,5 +1,5 @@
 
-Link to webpage: https://mike-smith13067.github.io/Bootstrap-portfolio/
+Link to webpage: https://mike-smith13067.github.io/Responsive-Portfolio/
 
 Tols/Languages used:
     HTML
